@@ -1,0 +1,19 @@
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.flex-item
+{
+    width: 11%;
+    font-size: 40px;
+}
+
+#board
+{
+    width: 50%;
+    text-align: center;
+}

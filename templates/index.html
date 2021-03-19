@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title></title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+
+        {% load static %}
+
+        <link rel="stylesheet" href="{% static 'sudoku.css' %}">
+    </head>
+
+    <body>
+        <span class="flex-container" id="board">
+        </span>
+        SLOW <input type="range" id="speed" min="1" max="1000"/> INSTANT
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="{% static 'sudoku.js' %}"></script>
+    </body>
+</html>
